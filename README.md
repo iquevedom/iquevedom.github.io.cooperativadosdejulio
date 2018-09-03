@@ -1,2 +1,1 @@
-# iquevedom.github.io.cooperativadosdejulio
-Dos de Julio Test Site
+Cooperativa Dos de Julio R. L. (test site)

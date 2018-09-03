@@ -1,0 +1,107 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+}
+
+.navbar .navbar-nav .nav-link:not(.btn) i.fa {
+    font-size: 18px;
+    position: relative;
+    top: 3px;
+    text-align: center;
+    width: 21px;
+}
+
+
+.page-header-image::before {iframe {
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #777;
+}
+    position: relative;
+    content: '';
+    background-color: #000;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+iframe {
+    width: 800px;
+    height: 350px;
+    margin: 0 auto;
+    background-color: #777;
+    display:block;
+}
+
+.page-header-image {
+    background-color: black;
+}
+
+.text-header {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.card-text {
+    font-size: 0.75em;
+    text-align: center;
+}
+
+#home {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#main-title {
+    font-size: 8em;
+    font-weight: 500;
+}
+
+#sub-title {
+    font-size: 3em;
+}
+
+#team-image {
+    width: 100%;
+    border-radius: 50%;
+    display: block;
+}
+
+#team-content {
+    text-align: center;
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Extra small devices (phones, 600px and down) */
+    #main-title {
+        font-size: 5em;
+    }
+    .card-title {
+        font-size: 1.75em;
+    }
+    #name {
+        font-size: 1.65em;
+    }
+    #job-title {
+        font-size: 0.75em;
+    }
+    #team {
+        font-size: 2em;
+    }
+    #visit {
+        font-size: 2em;
+    }
+}
